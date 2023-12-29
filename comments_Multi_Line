@@ -1,1 +1,5 @@
-/*Company: Godbrand Games L.L.C. Programmer: Akinwale Owi Program Purpose: Multi line comments*/SELECT first_nameFROM Customers;
+/*Company: Godbrand Games L.L.C.
+Programmer: Akinwale Owi
+ Program Purpose: Multi line comments*/
+SELECT first_name
+FROM Customers;
