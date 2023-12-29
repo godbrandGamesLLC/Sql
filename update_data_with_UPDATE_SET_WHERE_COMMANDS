@@ -1,0 +1,1 @@
+/*Company: Godbrand Games L.L.C. Programmer: Akinwale Owi Program Purpose: Use the update data with the UPDATE,SET, AND WHERE commands*/UPDATE CustomersSET first_name = 'Godbrand', last_name = 'Games'WHERE customer_id = 3;
