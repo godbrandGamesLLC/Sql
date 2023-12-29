@@ -1,1 +1,7 @@
--- Company: Godbrand Games L.L.C.-- Programmer: Akinwale Owi--Script Purpose: Select multiple columns, ex first_name,last_name and age from Customers --Ive seen a * in between the column name and FROM commandSELECT first_name,last_name,ageFROM Customers;
+-- Company: Godbrand Games L.L.C.
+-- Programmer: Akinwale Owi
+--Script Purpose: Select multiple columns, ex first_name,last_name and age from Customers 
+--Ive seen a * in between the column name and FROM command
+
+SELECT first_name,last_name,age
+FROM Customers;
