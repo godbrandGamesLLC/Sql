@@ -1,0 +1,8 @@
+-- Company: Godbrand Games L.L.C.
+-- Wizard: Akinwale Owi
+--Script Purpose: Select a column, ex shipping_id from Shippings 
+--
+
+--Ive seen a * in between the column name and FROM command in some places
+SELECT shipping_id
+FROM Shippings;
