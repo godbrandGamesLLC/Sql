@@ -1,0 +1,6 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the SELECT DISTINCT command to showcase some distinct values in a column, ex items from Orders
+*/
+
+SELECT DISTINCT item FROM Orders;
