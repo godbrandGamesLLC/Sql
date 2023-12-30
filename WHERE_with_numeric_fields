@@ -1,0 +1,1 @@
+/*Company: Godbrand Games L.L.C. Programmer: Akinwale Owi Program Purpose: WHERE with a numeric field */SELECT * FROM OrdersWHERE amount=400
