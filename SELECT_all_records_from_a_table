@@ -1,1 +1,5 @@
-/*Company: Godbrand Games L.L.C. Programmer: Akinwale Owi Program Purpose: SELECT command to grab all the records from a table*/SELECT * FROM Shippings;￼Enter
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: SELECT command to grab all the records from a table*/
+
+SELECT * FROM Shippings;
