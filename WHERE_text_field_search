@@ -1,0 +1,1 @@
+/*Company: Godbrand Games L.L.C. Programmer: Akinwale Owi Program Purpose: WHERE with a text field */  SELECT * FROM Customers WHERE first_name = 'John'￼Enter
