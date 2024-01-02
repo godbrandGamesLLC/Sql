@@ -1,0 +1,6 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the NOT operator to select everything but _, ex select every employee who's first name isn't John
+*/
+SELECT * FROM Customers
+WHERE NOT first_name ='John';
