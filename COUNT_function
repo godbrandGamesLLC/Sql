@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: use the built-in COUNT function to find the total number of records in a table, ex 'Orders' table 
+*/
+
+SELECT COUNT(*)
+FROM Orders; 
