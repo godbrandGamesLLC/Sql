@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: use the built-inMIN function to find the smallest number of a table, ex 'amount' from 'Orders' table 
+*/
+
+SELECT MIN(amount)
+FROM Orders; 
