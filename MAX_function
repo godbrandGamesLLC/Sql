@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: use the built-in MAX function to find the biggest number in a column of a table, ex 'amount' from 'Orders' table 
+*/
+
+SELECT MAX(amount)
+FROM Orders; 
