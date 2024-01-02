@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: use the built-in AVG function to find the average of all the data in a column of a table, ex 'amount' from 'Orders' table 
+*/
+
+SELECT AVG(amount)
+FROM Orders; 
