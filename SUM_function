@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: use the SUM function to return the sum of all the values of a numeric column, ex we get the sum from the amount column in orders as if someone asked how much money they've secured this year 
+*/
+
+SELECT SUM(amount)
+FROM Orders;
