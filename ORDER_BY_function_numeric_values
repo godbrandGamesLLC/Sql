@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose:Use the ORDER BY function on numeric values, ex: organize Orders table from smallest amount to greatest 
+*/
+
+SELECT * FROM Orders
+ORDER BY amount;
