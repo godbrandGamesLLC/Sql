@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose:Use the ORDER BY function on a text column, ex:organizing the Customers table in alphabetical order by first_name
+*/
+
+SELECT * FROM Customers
+ORDER BY first_name;
