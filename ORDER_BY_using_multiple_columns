@@ -1,0 +1,13 @@
+
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose:Use the ORDER BY function on a multiple columns it lets you go up to 7
+*/
+
+/*
+How it works: it creates a hierarchy of organization by the order of the items in the ORDER BY, so in this example it's still organizes it by country but before it goes on to the next country it'll organize all the data from the same country by age, and then any tie breakers by last name 
+*/
+
+
+SELECT * FROM Customers
+ORDER BY country, age,last_name;
