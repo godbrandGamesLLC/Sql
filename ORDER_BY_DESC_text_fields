@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the ORDER BY DESC technique on a text column to reverse alphabetically sort it (Z to A) ex:organizing the Customers table in reverse alphabetical order by last_name
+*/
+
+SELECT * FROM Customers
+ORDER BY last_name DESC;
