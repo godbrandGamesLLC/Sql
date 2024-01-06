@@ -1,0 +1,7 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the LIMIT technique to SELECT a certain number of records. Which bare minimum could be used as a mercy on your output compiling times
+*/
+
+SELECT * FROM Orders LIMIT 2;
+        
