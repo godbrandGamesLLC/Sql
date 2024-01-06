@@ -1,0 +1,9 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use IS NOT NULL to check if there are any data spots in a specific column that are not null/empty AND if so select every column from that data entry we chose for example ex. order_id, item, and amount 
+*/
+
+
+SELECT order_id, item, amount
+FROM Orders
+WHERE amount IS NOT NULL;
