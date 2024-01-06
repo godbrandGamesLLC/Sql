@@ -1,0 +1,9 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use IS NULL to check if there are any empty data spots in a specific column, ex. missing order IDs from the Orders column 
+*/
+
+
+SELECT order_id
+FROM Orders
+WHERE amount IS NULL;
