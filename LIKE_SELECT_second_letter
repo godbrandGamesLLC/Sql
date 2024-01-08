@@ -1,0 +1,11 @@
+
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Tweak the LIKE statement to SELECT all the rows that have a data entry with the second letter of our choosing in a column of our choice 
+*/
+/*
+In this example we're searching for the second letter in a last_name being 'o' from Customers: last_name
+*/
+
+SELECT * FROM Customers
+WHERE last_name LIKE '_o%';
