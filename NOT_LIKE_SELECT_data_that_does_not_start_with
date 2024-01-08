@@ -1,0 +1,10 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the NOT LIKE statement to SELECT all the rows that do not have a data entry starting with the letter of our choosing in the column of our choice 
+*/
+/*
+In this example we're SELECTing all the rows from the Shippings table that's shipping statuses(statusi?) don't start with 'P'
+*/
+
+SELECT * FROM Shippings 
+WHERE status NOT LIKE 'P%';
