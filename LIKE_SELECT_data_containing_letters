@@ -1,0 +1,11 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the LIKE statement to SELECT rows that have a data entry containing the letters of our choosing in the column of our choice 
+*/
+
+/*
+In this example we're searching the items column in Orders for items that have'boa' in their name 
+*/
+
+SELECT * FROM Orders
+WHERE item LIKE '%boa%'
