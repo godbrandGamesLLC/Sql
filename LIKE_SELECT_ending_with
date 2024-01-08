@@ -1,0 +1,13 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the LIKE statement to SELECT rows that have a data entry in our desired column ending with our desired letter,  
+*/
+
+/*
+In our example its last names ENDING with a 'e' from the Customers table
+*/
+
+SELECT * FROM Customers
+WHERE last_name LIKE '%e';
+
+
