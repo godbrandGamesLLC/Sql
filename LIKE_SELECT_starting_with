@@ -1,0 +1,13 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the LIKE statement to SELECT rows that have a data entry in our desired starting with our desired letter,  
+*/
+
+/*
+In our example its first names starting with a 'J' from the Customers table
+*/
+
+SELECT * FROM Customers
+WHERE first_name LIKE 'J%';
+
+
