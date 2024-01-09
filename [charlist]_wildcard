@@ -1,0 +1,10 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: We use [charlist] to touch any row/record that begins with any of the numbers letters in our [charlist], in the column we are searching for them in
+*/
+
+/*In our example we are SELECTING any row/record in Orders that starts with a '8' or '9' in the OrderDate column like we were searching for all the August and September orders
+*/
+
+SELECT * FROM Orders
+WHERE OrderDate LIKE '[89]%';
