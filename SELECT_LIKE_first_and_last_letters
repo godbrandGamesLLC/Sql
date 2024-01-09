@@ -1,0 +1,11 @@
+
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: Use the LIKE statement to SELECT all the rows that have a data entry that start and end with letter(s) of our choosing in the column of our choice 
+*/
+/*
+In this example it's first letter 'J' and last letter 'n', as if it's a John/Jonathan search
+*/
+
+SELECT * FROM Customers
+WHERE first_name LIKE 'J%n';
