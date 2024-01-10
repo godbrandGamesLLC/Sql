@@ -1,0 +1,14 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Goal: Since the IN operator is one way SQL says 'or' and the compiler will use all the values inside of the IN we will see what values come back from a group search/SELECT 
+*/
+
+/*Our example we are searching for any of records from a group of employee IDs as if we're searching for ALL of a specific team's sales
+*/
+
+--for strings you can use single quotation marks example 'john' 
+
+SELECT * FROM Orders
+WHERE EmployeeID IN (1, 3, 9);
+
+
