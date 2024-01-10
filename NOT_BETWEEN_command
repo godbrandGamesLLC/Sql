@@ -1,0 +1,8 @@
+/*
+Code Goat: Akinwale Owi
+Business: Godbrand Games L.L.C.
+Program Purpose: Use the NOT BETWEEN command and SELECT all the records THAT DO NOT lie between two numbers of our choosing
+*/
+
+SELECT * FROM Orders
+WHERE amount NOT BETWEEN 250 AND 500;
