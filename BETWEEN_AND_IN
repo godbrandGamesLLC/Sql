@@ -1,0 +1,13 @@
+/*
+Code Goat: Akinwale Owi
+Business: Godbrand Games L.L.C.
+Program Purpose: Use the combo of BETWEEN and IN to create a two condition SELECT.
+*/
+
+/*
+In this example we are selecting records that have a OrderID BETWEEN 10400 AND 10450, BUT only from EmployeeIDS 1,3, and 6
+*/
+
+SELECT * FROM Orders
+WHERE OrderID BETWEEN 10400 AND 10450
+AND EmployeeID IN (1,3,6);
