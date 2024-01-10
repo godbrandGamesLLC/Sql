@@ -1,0 +1,12 @@
+/*
+Programmer: Akinwale Owi
+Company: Godbrand Games L.L.C.
+Program Goal: Use the NOT BETWEEN command to grab all the records who's text value , in our chosen column, DOES NOT fall in the range of text the two pieces of text data we have chosen to be anchors, alphabetically.
+*/
+/*
+ After that we organized the SELECTed data alphabetically by SupplierName just for readability 
+*/
+
+SELECT * FROM Suppliers
+WHERE SupplierName NOT BETWEEN 'Exotic Liquid' AND 'New Orleans Cajun Delights'
+ORDER BY SupplierName;
