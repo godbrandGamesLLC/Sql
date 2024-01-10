@@ -1,0 +1,14 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Goal: Use the NOT IN operator to SELECT every row/record that is not in our NOT STATEMENT.
+*/
+
+/*
+This example example every record that is NOT from one of countries mentioned in our statement 
+*/
+
+--no need for quotation marks with numbers just continue to separate them commas ex.
+
+ SELECT * FROM Customers
+WHERE Country NOT IN ('France', 'Germany', 'Italy');
+
