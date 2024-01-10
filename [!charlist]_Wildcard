@@ -1,0 +1,10 @@
+/*Company: Godbrand Games L.L.C. 
+Programmer: Akinwale Owi 
+Program Purpose: We use [!charlist] to touch any row/record that DOES NOT begin with any of the numbers or letters in our [!charlist], in the column we are searching for them in.
+*/
+
+/*In this example we are SELECTING any row/record in Orders that DOES NOT start with a '8' or '9' in the OrderDate column so we can see all the NON August and September orders
+*/
+
+SELECT * FROM Orders
+WHERE OrderDate LIKE '[!89]%';
