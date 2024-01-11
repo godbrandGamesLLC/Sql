@@ -1,0 +1,11 @@
+/*
+Programmer: Akinwale Owi
+Company: Godbrand Games L.L.C.
+/*
+Program Goal: Use the 'AS' keyword to give two different columns two different temporary names/aliases.  
+*/
+
+--aliases are not permanent they only last for the duration of the query
+
+SELECT item AS products, customer_id AS cx_ids
+FROM Orders;
