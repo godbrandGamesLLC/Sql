@@ -1,0 +1,10 @@
+/*
+Programmer: Akinwale Owi
+Company: Godbrand Games L.L.C.
+Program Goal: Use COUNT + ORDER BY COUNT to see our customers' ages from least popular to most
+*/
+
+SELECT COUNT(age), age
+FROM Customers
+GROUP BY age
+ORDER BY COUNT(age) ASC;
