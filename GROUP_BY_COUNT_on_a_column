@@ -1,1 +1,13 @@
-/*Programmer: Akinwale OwiCompany: Godbrand Games L.L.C.Program Goal: With the help of the GROUP BY and COUNT functions we count how many of each item are in the Orders table/*We are counting what is in parentheses and it will make its own column , likely only for the query's duration otherwise that sounds like solveable madness. */--your compiler might need a comma after COUNT(item)SELECT item,COUNT(item)FROM OrdersGROUP BY item;
+/*
+Programmer: Akinwale Owi
+Company: Godbrand Games L.L.C.
+Program Goal: With the help of the GROUP BY and COUNT functions we count how many of each item are in the Orders table
+*/
+
+/*We are counting what is in parentheses and it will make its own column , likely only for the query's duration otherwise that sounds like solveable madness. 
+*/
+--your compiler might need a comma after COUNT(item)
+
+SELECT item,COUNT(item)
+FROM Orders
+GROUP BY item;
