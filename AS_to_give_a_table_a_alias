@@ -1,0 +1,12 @@
+/*
+Programmer: Akinwale Owi
+Company: Godbrand Games L.L.C.
+/*
+Program Goal: Use the 'AS' keyword to help create an alias an for a table.
+*/
+
+--aliases are not permanent they only last for the duration of the query.
+
+--depending on your compiler table name might not show on this select even if executes correctly.
+
+SELECT * FROM Orders AS Tickets;
