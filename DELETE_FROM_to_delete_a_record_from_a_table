@@ -1,5 +1,8 @@
 /*
 Programmer: Akinwale Owi
 Company: Godbrand Games L.L.C.
-Program Goal: add a new record in a table in SQL with the help of INSERT INTO
+Program Goal: Delete a record from a table in SQL with the DELETE FROM command
 */
+
+DELETE FROM Orders
+WHERE order_id ='3';
