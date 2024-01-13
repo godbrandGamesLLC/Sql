@@ -1,0 +1,37 @@
+The INT data type is an integer value from -2,147,483,648 to 2,147,483,647.
+
+INT uses 4 bytes of storage.
+
+INT is the most commonly used integer data type in SQL Server.
+
+Example
+#
+A table with an INT column.
+
+CREATE TABLE DemoTable  
+( 
+  Id INT IDENTITY, 
+  CompanyName VARCHAR(100),
+  Employees INT
+);
+GO  
+
+INSERT INTO DemoTable VALUES ('Walmart', 2200000);  
+INSERT INTO DemoTable VALUES ('Amazon', 1298000);  
+INSERT INTO DemoTable VALUES ('Allied Universal', 800000);
+INSERT INTO DemoTable VALUES ('FedEx Corporation', 650000); 
+INSERT INTO DemoTable VALUES ('Home Depot', NULL); 
+GO  
+
+SELECT * FROM DemoTable;
+GO
+
+DROP TABLE DemoTable;
+GO
+Result:  5 records
+ID	COMPANYNAME	EMPLOYEES
+1	Walmart	2200000
+2	Amazon	1298000
+3	Allied Universal	800000
+4	FedEx Corporation	650000
+5	Home Depot	NULL
