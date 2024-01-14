@@ -1,0 +1,36 @@
+untested
+from:
+https://www.w3schools.com/sql/sql_datatypes.asp
+
+sql string data types
+
+1 CHAR(size): 
+
+A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1
+
+2 VARCHAR(size):
+
+A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum string length in characters - can be 
+
+3 BINARY(size):
+
+Equal to CHAR(), but stores binary byte strings. The size parameter specifies the column length in bytes. Default is 1
+
+
+
+4 VARBINARY(size):Equal to VARCHAR(), but stores binary byte strings. The size parameter specifies the maximum column length in bytes.
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
