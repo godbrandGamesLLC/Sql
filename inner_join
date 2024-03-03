@@ -1,0 +1,3 @@
+SELECT Employees.EmployeeID, Employees.FirstName, Orders.OrderDate
+FROM Employees
+INNER JOIN Orders ON Employees.EmployeeID = Orders.EmployeeID;
