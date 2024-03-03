@@ -1,0 +1,14 @@
+/*Coding Creature: Akinwale Owi
+Business: Godbrand Games L.L.C.
+Program Purpose: The LEFT JOIN technique to get all the records from the left joined table's desired column(s) and the matches from the other table.
+*/
+
+/* So in our example we want to grab all the order dates ,and put the matching matching customer's name and country where the customerid = orderid is the s ame in in Orders
+
+
+
+SELECT Orders.OrderDate,Customers.CustomerName, Customers.Country
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Orders.OrderDate;
