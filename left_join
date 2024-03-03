@@ -1,0 +1,5 @@
+SELECT Orders.OrderDate,Customers.CustomerName, Customers.Country
+FROM Orders
+LEFT JOIN Customers
+ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Customers.CustomerName;
