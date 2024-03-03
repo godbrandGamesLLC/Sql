@@ -1,4 +1,4 @@
-\*The inner join method only chooses records that have a identical value, as opposed to thr left join that will still choose the whole left joined thing*/
+\*The inner join method only chooses records that have a identical value, as opposed to the left join that will still choose the whole left joined thing*/
 
 \*
 In our example we're joining Employees who's ids are in both the Employee and Orders table, as if we were searching for all the employees who created an order, sale, ticket etc.
