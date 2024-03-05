@@ -1,4 +1,6 @@
+/*
 A self join is when the table selects itself as the tables involved in query. We achive this syntactically by creating aliases.
+*/
 
 SELECT A.ProductID AS ProductID1, B.ProductID AS ProductID2, A.Price
 FROM Products A, Products B
