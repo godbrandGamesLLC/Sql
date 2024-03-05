@@ -1,4 +1,6 @@
+/*
 RIGHT JOIN only selects the matches from table1 and all the records designated in table.
+*/
 
 SELECT Orders.OrderDate,Customers.CustomerName, Customers.Country
 FROM Customers
