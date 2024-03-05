@@ -1,10 +1,11 @@
-All w3 schools on this script: https://www.w3schools.com/sql/sql_join_full.asp
+/* All w3 schools on this script: https://www.w3schools.com/sql/sql_join_full.asp
 
 ~Note: FULL OUTER JOIN can potentially return very large result-sets!
 
 ~FULL OUTER JOIN and FULL JOIN are the same.
 
 ~The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+*/
 
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers
