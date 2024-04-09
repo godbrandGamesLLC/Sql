@@ -2,4 +2,5 @@
 Programmer: Akinwale Owi
  Program Purpose: Single line comments*/
 SELECT first_name
+--SELECT last_name
 FROM Customers;
